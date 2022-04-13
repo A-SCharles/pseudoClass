@@ -1,0 +1,73 @@
+/* *{
+    margin: auto;
+    padding: auto;
+} */
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 20px
+}
+
+h2 {
+    font-family: 'Ms Madi', cursive;
+
+}
+
+header, footer{
+    height: 50px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+nav {
+padding: 10px;
+}
+
+nav a {
+padding: 10px 20px 10px 20px;
+color: aqua;
+background-color: cadetblue;
+}
+
+nav a:visited {
+
+}
+
+nav a:hover{
+
+}
+
+nav a:active{
+
+}
+
+nav a:focus{
+
+}
+
+div:nth-last-child(2){
+    background-color: coral;
+}
+
+div:first-child{
+    background-color: green;
+}    
+
+p::first-line{
+   background-color: cadetblue;
+}
+
+p::first-letter{
+    font-size: 100px;
+    padding-right: 2px;
+}
+
+/* #lorem::before{
+    content: url("../image/Image.png");
+    width: 150px;
+    height: 150px;  
+} */
+
+
+
